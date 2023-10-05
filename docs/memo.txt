@@ -1,0 +1,13 @@
+Wednesday 4 October 2023
+14:43 
+- Configure sprinboot at https://start.spring.io
+- Add spriongWeb dependency
+- Add JPA dependency
+- Add PostgreSQL connector (or MySQL connector)
+
+Thursday 5 October 2023
+12:50
+- created mysql user 
+- CREATE DATABASE testdb;
+- CREATE USER 'tester'@'localhost' IDENTIFIED BY 'Letmein#1234';
+- GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE ON testdb.* TO 'tester'@'localhost';
