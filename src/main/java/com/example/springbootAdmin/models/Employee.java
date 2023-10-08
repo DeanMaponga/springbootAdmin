@@ -23,6 +23,7 @@ public class Employee  implements Serializable {
     private Long startDate;
     private Boolean isVerified;
 
+    public Employee(){}
     public Employee(String name,String email, String jobTitle, String jobDescription, String phoneNumber, String imageUrl, Long startDate,Boolean isVerified){
         this.name = name;
         this.email = email;
